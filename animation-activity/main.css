@@ -23,26 +23,6 @@ body  {
 
 }
 
-@keyframes top {
-  0% {transform: translateX (0) translateY (0) background rebeccapurple;}
-  25% {transform: translateX (10px) translateY (10px)  rotate(12.5%) background ghostwhite;}
-  100% {transform: rotateX(25%);}
-}
-
-#top {
-  animation: 4s top;
-}
-
-@keyframes middle {
-  0% {background: rebeccapurple;}
-  100% {background: mediumvioletred;}
-}
-
-#middle {
-  animation: middle 1s;
-  
-}
-
 .hamburger div {
   background-color: rebeccapurple;
   height: 10px;
