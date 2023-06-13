@@ -20,6 +20,17 @@ body  {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+
+}
+
+/* @keyframes move-top {
+  0% {transform: translateX (0) translateY (0) background: rebeccapurple}
+  25% {transform: translateX (0) translateY (0) background: ghostwhite}
+  100% {transform: rotateX(25%);}
+} */
+
+#top {
+  animation: 4s move-top;
 }
 
 .hamburger div {
